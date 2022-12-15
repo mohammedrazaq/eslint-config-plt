@@ -365,12 +365,7 @@ module.exports = {
         "react/no-this-in-sfc": "error",
         "react/no-typos": "off",
         "react/no-unescaped-entities": "error",
-        "react/no-unknown-property": [
-          2,
-          {
-            ignore: ["jsx", "global"],
-          },
-        ],
+        "react/no-unknown-property": "error",
         "react/no-unsafe": "error",
         "react/no-unused-prop-types": "off",
         "react/no-unused-state": "error",
