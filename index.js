@@ -232,29 +232,7 @@ module.exports = {
         "require-await": "error",
         "require-unicode-regexp": "off",
         "require-yield": "error",
-        "sort-imports": [
-          "error",
-          {
-            ignoreCase: true,
-            ignoreDeclarationSort: true,
-          },
-        ],
-        "import/order": [
-          1,
-          {
-            groups: [
-              "builtin",
-              "external",
-              "internal",
-              "unknown",
-              "parent",
-              "sibling",
-              "index",
-              "object",
-              "type",
-            ],
-          },
-        ],
+        "sort-imports": "off",
         "sort-keys": "off",
         "sort-vars": "off",
         "spaced-comment": ["error", "always"],
