@@ -1,5 +1,11 @@
 module.exports = {
-  plugins: ["testing-library", "jest-dom", "plt-rules", "unused-imports"],
+  plugins: [
+    "testing-library",
+    "jest-dom",
+    "plt-rules",
+    "unused-imports",
+    "import",
+  ],
   extends: [
     "plugin:testing-library/recommended",
     "plugin:jest-dom/recommended",
@@ -20,6 +26,29 @@ module.exports = {
     "@next/next/no-img-element": 0,
     "unused-imports/no-unused-imports": "error",
     "import/no-named-as-default": 0,
+    "sort-imports": [
+      "error",
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+      },
+    ],
+    "import/order": [
+      1,
+      {
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          "unknown",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type",
+        ],
+      },
+    ],
   },
   overrides: [
     {
