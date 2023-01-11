@@ -36,7 +36,7 @@ module.exports = {
       },
     ],
     "import/order": [
-      1,
+      2,
       {
         groups: [
           "builtin",
