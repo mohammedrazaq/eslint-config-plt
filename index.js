@@ -202,7 +202,6 @@ module.exports = {
     "object-shorthand": "off",
     "one-var": "off",
     "one-var-declaration-per-line": "off",
-    "operator-assignment": ["error", "never"],
     "prefer-arrow-callback": [
       "error",
       {
