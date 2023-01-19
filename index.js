@@ -13,7 +13,6 @@ module.exports = {
     "plugin:jest-dom/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
-    "next/core-web-vitals",
     "plugin:prettier/recommended",
   ],
   settings: {
